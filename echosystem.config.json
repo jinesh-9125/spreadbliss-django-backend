@@ -3,7 +3,7 @@
     {
       "name": "SpreadblissQC (python backend API)",
       "script": "manage.py",
-      "args": ["runserver", "localhost:8000"],
+      "args": ["runserver", "0.0.0.0:8000"],
       "exec_mode": "fork",
       "instances": "1",
       "wait_ready": true,
