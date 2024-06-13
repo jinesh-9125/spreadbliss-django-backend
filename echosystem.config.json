@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "SpreadblissQC (python backend API)",
+      "script": "manage.py",
+      "args": ["runserver", "localhost:8000"],
+      "exec_mode": "fork",
+      "instances": "1",
+      "wait_ready": true,
+      "autorestart": false,
+      "max_restarts": 5,
+      "interpreter": "python3"
+    }
+  ]
+}
